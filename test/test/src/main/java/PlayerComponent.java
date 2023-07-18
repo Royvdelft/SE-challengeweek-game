@@ -36,21 +36,6 @@ public class PlayerComponent extends Component {
         });
     }
 
-
-
-    @Override
-    public void onUpdate(double tpf) {
-//        if (physics.isMovingX()) {
-//            if (texture.getAnimationChannel() != animWalk) {
-//                texture.loopAnimationChannel(animWalk);
-//            }
-//        } else {
-//            if (texture.getAnimationChannel() != animIdle) {
-//                texture.loopAnimationChannel(animIdle);
-//            }
-//        }
-    }
-
     public void moveLeft() {
         getEntity().setScaleX(-1);
         physics.setVelocityX(-170);
