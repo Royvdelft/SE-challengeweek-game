@@ -1,0 +1,4 @@
+
+public enum EntityType  {
+    PLAYER, COIN_PLUS, COIN_MIN, PLATFORM, STARTING_POINT, FINISH_POINT
+}
